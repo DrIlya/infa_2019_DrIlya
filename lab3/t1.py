@@ -1,0 +1,17 @@
+from graph import *
+
+penColor("black")
+penSize(1)
+brushColor("yellow")
+circle(200, 200, 100)
+brushColor("black")
+rectangle(150, 250, 250, 265)
+brushColor("red")
+circle(160, 180, 20)
+circle(240, 180, 15)
+brushColor("black")
+circle(160, 180, 5)
+circle(240, 180, 5)
+polygon( [(210,170), (250,160), (255,165), (215,175), (210,170)] )
+polygon( [(190,160), (150,150), (145,155), (185,165), (190,160)] )
+run()
